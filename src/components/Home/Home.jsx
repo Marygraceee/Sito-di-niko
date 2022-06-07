@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 import './Home.css';
+import { NavLink } from 'react-router-dom';
 import placeholder from '../../assets/placeholder.jpg';
 
 function Home() {
@@ -15,6 +16,9 @@ function Home() {
             Iste nostrum obcaecati itaque dolorem ipsum rem libero! Debitis tenetur deserunt facere maiores maxime.
 
           </p>
+          <NavLink to="/servizi">
+            <button type="button" className="serviceBtn">Richiedi un servizio</button>
+          </NavLink>
         </div>
       </div>
       <div className="motivazione">

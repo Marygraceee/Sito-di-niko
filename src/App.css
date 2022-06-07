@@ -1,24 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     border: 0;
-    
+    font-family: 'Poppins', sans-serif;
     
     
 }
 
 html{
     overflow-y: scroll;
+    
 }
 
 
 body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.363),
-    rgba(0, 0, 0, 0.205)), url(./assets/sfondo.jpg);
+    rgba(0, 0, 0, 0.205)), url(./assets/sfondo5.jpg);
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
+   background-position: center;
    box-sizing: border-box;
    min-height: 200vh;
    max-height: max-content;

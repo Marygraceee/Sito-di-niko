@@ -6,6 +6,7 @@ import Contatti from './components/Contatti/Contatti';
 import Home from './components/Home/Home';
 import Servizi from './components/Servizi/Servizi';
 import './App.css';
+import Form from './components/Form/Form';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/contatti" element={<Contatti />} />
         <Route path="/servizi" element={<Servizi />} />
       </Routes>
+      <Form />
     </Router>
 
   );
