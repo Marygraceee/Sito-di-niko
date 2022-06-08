@@ -27,7 +27,7 @@ function Form() {
 
       <form className="zonaForm" ref={form} onSubmit={sendEmail}>
         <div>
-          <label htmlFor="name">Nome</label>
+          <label htmlFor="name">Nome ciao!</label>
           <input type="text" id="name" name="user_name" />
         </div>
 
