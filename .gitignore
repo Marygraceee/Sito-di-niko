@@ -25,4 +25,4 @@ yarn-error.log*
 
 # api keys
 .env  node_modules/
-.vscode/
+sito-di-niko/.vscode/
