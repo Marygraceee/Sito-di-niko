@@ -7,6 +7,7 @@ import Home from './components/Home/Home';
 import Servizi from './components/Servizi/Servizi';
 import './App.css';
 import Form from './components/Form/Form';
+import Blog from './components/Blog/Blog';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contatti" element={<Contatti />} />
         <Route path="/servizi" element={<Servizi />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
       <Form />
     </Router>

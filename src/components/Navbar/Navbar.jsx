@@ -36,9 +36,13 @@ function Navbar() {
         <NavLink to="/servizi">
           <h1>Servizi</h1>
         </NavLink>
+        <NavLink to="/blog">
+          <h1>Blog</h1>
+        </NavLink>
         <NavLink to="/contatti">
           <h1>Dove trovarmi</h1>
         </NavLink>
+
       </nav>
 
       <button onClick={toggleActive} type="button" className="toggle-button">
