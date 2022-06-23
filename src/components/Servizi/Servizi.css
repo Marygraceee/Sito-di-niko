@@ -1,0 +1,40 @@
+.servicesContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: fit-content;
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.service {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    font-size: 1.6rem;
+    color: white;
+    
+}
+
+.card{
+    display: flex;
+   flex-direction: row;
+   gap: 3rem;
+  
+}
+
+.card img{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 2rem;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.719);
+    padding: 3rem;
+    border-radius: 3rem;
+}
