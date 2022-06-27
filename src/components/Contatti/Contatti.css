@@ -1,0 +1,56 @@
+.doveTrovarmiContainer{
+    min-height: 100vh;
+    max-height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    gap: 8rem;
+}
+
+.iconsSection {
+    color: white;
+    display: flex;
+    gap: 10rem;
+    font-size: 4rem;
+}
+
+.writingSection{
+    color: white;
+    font-size: 2.4rem;
+    text-align: center;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconsSection h1{
+    background-color: rgba(73, 73, 73, 0.651);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    transition: .3s ease-in-out;
+}
+
+.iconsSection h1:hover{
+    background-color: rgb(73, 73, 73);
+    transform: scale(1.2);
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+
+.upWork{
+    color: rgb(51, 212, 51);
+}
+
+.linkedin{
+    color: #0072b1;
+}

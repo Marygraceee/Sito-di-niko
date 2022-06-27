@@ -7,7 +7,7 @@ function Servizi() {
     <div className="servicesContainer">
 
       <div className="service">
-        <div className="card">
+        <div className="cardServizi">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Inventore temporibus rem alias provident beatae corrupti a,
@@ -24,7 +24,7 @@ function Servizi() {
       </div>
 
       <div className="service">
-        <div className="card">
+        <div className="cardServizi">
           <img src={placeholder} alt="" />
           <p>
             Lorem ipsum dolor sit amet consectetur
@@ -42,7 +42,7 @@ function Servizi() {
       </div>
 
       <div className="service">
-        <div className="card">
+        <div className="cardServizi">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Inventore temporibus rem alias provident beatae corrupti a,
@@ -58,7 +58,7 @@ function Servizi() {
       </div>
 
       <div className="service">
-        <div className="card">
+        <div className="cardServizi">
           <img src={placeholder} alt="" />
           <p>
             Lorem ipsum dolor sit amet consectetur
@@ -75,7 +75,7 @@ function Servizi() {
       </div>
 
       <div className="service">
-        <div className="card">
+        <div className="cardServizi">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Inventore temporibus rem alias provident beatae corrupti a,
