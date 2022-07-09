@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 /* eslint-disable no-console */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useRef } from 'react';
@@ -6,6 +7,9 @@ import './Form.css';
 
 function Form() {
   const form = useRef();
+  const casellaNome = useRef();
+  const casellaMail = useRef();
+  const casellaTesto = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -22,6 +26,13 @@ function Form() {
       });
   };
 
+  // eslint-disable-next-line no-unused-vars
+  const defaultValue = () => {
+    casellaNome.current.value = '';
+    casellaMail.current.value = '';
+    casellaTesto.current.value = '';
+  };
+
   return (
     <div className="Container">
 
@@ -29,17 +40,17 @@ function Form() {
         <form ref={form} onSubmit={sendEmail}>
           <div>
             <label htmlFor="name">Nome</label>
-            <input type="text" id="name" name="user_name" />
+            <input ref={casellaNome} type="text" id="name" name="user_name" />
           </div>
 
           <div>
             <label htmlFor="email">Email</label>
-            <input type="email" id="email" name="user_email" />
+            <input ref={casellaMail} type="email" id="email" name="user_email" />
           </div>
 
           <div>
             <label htmlFor="message">La tua richiesta</label>
-            <textarea type="text" name="message" id="message" cols="60" rows="5" style={{ resize: 'none' }} />
+            <textarea ref={casellaTesto} type="text" name="message" id="message" cols="60" rows="5" style={{ resize: 'none' }} />
           </div>
 
           <div>

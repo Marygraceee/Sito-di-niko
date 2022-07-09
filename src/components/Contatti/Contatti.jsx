@@ -1,6 +1,8 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
-import { BsLinkedin } from 'react-icons/bs';
-import { SiFiverr, SiUpwork } from 'react-icons/si';
+import { AiFillLinkedin } from 'react-icons/ai';
+import { RiLinkedinBoxFill } from 'react-icons/ri';
+import { SiFiverr, SiUpwork, SiLinkedin } from 'react-icons/si';
 import './Contatti.css';
 
 function Contatti() {
@@ -15,7 +17,7 @@ function Contatti() {
       </div>
 
       <div className="iconsSection">
-        <h1 className="linkedin"><BsLinkedin /></h1>
+        <h1 className="linkedin"><AiFillLinkedin /></h1>
         <h1><SiFiverr /></h1>
         <h1 className="upWork"><SiUpwork /></h1>
 
