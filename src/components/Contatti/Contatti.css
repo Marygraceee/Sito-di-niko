@@ -54,3 +54,61 @@
 .linkedin{
     color: #0072b1;
 }
+
+
+@media only screen and (max-width: 1200px){
+    /* Tablets */
+    .doveTrovarmiContainer{
+        min-width: 100vw;
+        max-width: 100vw;
+        
+        margin: 0;
+        margin-top: 10rem;
+        margin-bottom: 5rem;
+    }
+    .iconsSection{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    /* Tablets */
+    .doveTrovarmiContainer{
+        min-width: 100vw;
+        max-width: 100vw;
+        
+        margin: 0;
+        margin-top: 10rem;
+        margin-bottom: 5rem;
+    }
+    .iconsSection{
+        flex-direction: column;
+    }
+
+    .writingSection{
+        font-size: 2rem;
+        
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    /* Tablets */
+    .doveTrovarmiContainer{
+        min-width: 100vw;
+        max-width: 100vw;
+        
+        margin: 0;
+        margin-top: 10rem;
+        margin-bottom: 5rem;
+    }
+    .iconsSection{
+        flex-direction: column;
+    }
+
+    .writingSection{
+        font-size: 2rem;
+        
+        width: 90%;
+    }
+}
