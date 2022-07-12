@@ -30,7 +30,7 @@ function Navbar() {
       </nav>
 
       <nav className={menu ? 'links-section toggled' : 'links-section'}>
-        <NavLink to="/about">
+        <NavLink to="/chi-sono">
           <h1>Chi sono</h1>
         </NavLink>
         <NavLink to="/servizi">
@@ -39,7 +39,7 @@ function Navbar() {
         <NavLink to="/blog">
           <h1>Blog</h1>
         </NavLink>
-        <NavLink to="/contatti">
+        <NavLink to="/dove-trovarmi">
           <h1>Dove trovarmi</h1>
         </NavLink>
 

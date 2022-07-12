@@ -34,17 +34,17 @@ function Home() {
           <div className="cards">
             <div className="card">
               <img src={placeholder} alt="placeholder" />
-              <h1>Ciao!</h1>
+              <h1>Motivo 1</h1>
               <p>Hola!</p>
             </div>
             <div className="card">
               <img src={placeholder} alt="placeholder" />
-              <h1>Ciao!</h1>
+              <h1>Motivo 2</h1>
               <p>Hola!</p>
             </div>
             <div className="card">
               <img src={placeholder} alt="placeholder" />
-              <h1>Ciao!</h1>
+              <h1>Motivo 3</h1>
               <p>Hola!</p>
             </div>
 

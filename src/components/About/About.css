@@ -1,0 +1,181 @@
+.mainContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: fit-content;
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.firstSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.photoSubSection{
+    flex: 1;
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.textSubSection{
+    flex: 1;
+   
+    text-align: center;
+}
+
+.secondSection{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    
+    color: white;
+    gap: 3rem;
+}
+
+.linkAiProgetti > a {
+    font-size: 10rem;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(129, 35, 35, 0.836);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 1.5rem;
+    transition: .5s ease-in-out;
+    
+}
+
+.linkAiProgetti > a:hover{
+    background-color: rgb(129, 35, 35);
+    transform: scale(1.2);
+    font-weight: bolder;
+    cursor: pointer;
+    z-index: 555555;
+}
+
+.invito{
+    font-size: 4rem;
+}
+
+.dueRighe{
+    font-size: 3rem;
+    
+    padding: 3rem;
+}
+
+
+@media only screen and (max-width: 1200px){
+	/*Tablets [601px -> 1200px]*/
+
+.mainContainer{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    gap: 3rem;
+}
+.firstSection{
+    flex-direction: column;
+    gap: 3rem;
+    height: max-content;
+    margin-top: 10rem;
+}
+
+.secondSection{
+   
+    height: max-content;
+    margin-bottom: 10rem;
+}
+
+.invito{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.dueRighe{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+}
+
+
+@media only screen and (max-width: 600px){
+	/*Tablets [601px -> 1200px]*/
+    .mainContainer{
+        margin-right: 2rem;
+        margin-left: 2rem;
+        gap: 3rem;
+    }
+    .firstSection{
+        flex-direction: column;
+        gap: 3rem;
+        height: max-content;
+        margin-top: 10rem;
+    }
+    
+    .secondSection{
+       
+        height: max-content;
+        margin-bottom: 10rem;
+    }
+    
+    .invito{
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .dueRighe{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 400px){
+  
+
+    .mainContainer{
+        margin-right: 2rem;
+        margin-left: 2rem;
+        gap: 3rem;
+    }
+    .firstSection{
+        flex-direction: column;
+        gap: 3rem;
+        height: max-content;
+        margin-top: 10rem;
+    }
+    
+    .secondSection{
+       
+        height: max-content;
+        margin-bottom: 10rem;
+    }
+    
+    .invito{
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .dueRighe{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+
+}

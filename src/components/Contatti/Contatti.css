@@ -28,7 +28,7 @@
     align-items: center;
 }
 
-.iconsSection h1{
+.iconsSection > a{
     background-color: rgba(129, 35, 35, 0.836);
     display: flex;
     align-items: center;
@@ -37,9 +37,11 @@
     height: 13rem;
     border-radius: 50%;
     transition: .3s ease-in-out;
+    text-decoration: none;
+    font-size: 7rem;
 }
 
-.iconsSection h1:hover{
+.iconsSection > a:hover{
     background-color: rgb(129, 35, 35);
     transform: scale(1.2);
     font-weight: bolder;
@@ -53,6 +55,10 @@
 
 .linkedin{
     color: #0072b1;
+}
+
+.fiverr{
+    color: white;
 }
 
 

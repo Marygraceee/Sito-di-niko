@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { AiFillLinkedin } from 'react-icons/ai';
@@ -17,9 +18,9 @@ function Contatti() {
       </div>
 
       <div className="iconsSection">
-        <h1 className="linkedin"><AiFillLinkedin /></h1>
-        <h1><SiFiverr /></h1>
-        <h1 className="upWork"><SiUpwork /></h1>
+        <a href="https://it.linkedin.com/in/nikolececcarelli" target="_blank" rel="noopener noreferrer" className="linkedin"><AiFillLinkedin /></a>
+        <a href="https://www.fiverr.com/nikolehally" target="_blank" rel="noopener noreferrer" className="fiverr"><SiFiverr /></a>
+        <a href="https://www.upwork.com/freelancers/~01704fba0242b3801c" target="_blank" rel="noopener noreferrer" className="upWork"><SiUpwork /></a>
 
       </div>
     </div>
