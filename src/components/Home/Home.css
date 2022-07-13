@@ -1,116 +1,103 @@
-*{
-    margin: 0;
-    border: 0;
-    padding: 0;
-}
-
-
-
 .homeContent{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     height: fit-content;
     flex-direction: column;
-    margin-right: 5rem;
-    margin-left: 5rem;
+    
+    
 }
 
-
-
-.introduzione {
+.introduzione{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     height: 100vh;
+    width: 60%;
+    font-size: 1.6rem;
+    color: white;
+    gap: 2rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.serviceBtn{
+    background-color: rgba(129, 35, 35, 0.836);
+    color: white;
+    font-size: 1.6rem;
+    padding: 1.6rem 1rem;
+    border-radius: 3rem;
+    font-weight: bolder;
+    transition: .3s ease-in-out;
+}
+
+.serviceBtn:hover{
+    background-color: rgb(129, 35, 35);
+    cursor: pointer;
+    
+}
+
+
+
+
+.motivazioni{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-height: max-content;
     width: 100%;
     font-size: 1.6rem;
     color: white;
+    gap: 2rem;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(129, 35, 35, 0.836));
+    text-shadow: 2px 2px #000000;
 }
 
-.introduzioneElementi{
-    display: flex;
-    flex-direction: column;
-    width: 40rem;
+.motivazioni > p{
     
+    width: 60%;
 }
 
-
-.motivazione {
-    display: flex;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.842);
-    min-height: 100vh;
-    max-height: fit-content;
-    width: 100%;
-    font-size: 1.4rem;
-    color: black;
-    border-radius: 3rem;
+.percheNo{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
-
-.motivazioneElementi{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
-    gap: 3rem;
-    margin-top: 5rem;
-    width: 50%;
-}
-
 
 .cards{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20rem;
-    
-    
-}
-
-.cards img{
-    width: 200%;
+    justify-content: space-around;
+    width: 95%;
+   align-items: center;
+  gap: 3rem;
+   
 }
 
 .card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    width: 30rem;
+    height: 40rem;
     
-   
 }
 
-.card > p,
-.card > h1 {
-    width: 12rem;
-    text-align: center;
-    background-color: rebeccapurple;
-}
-
-
-.serviceBtn{
-    background-color: rgba(129, 35, 35, 0.705);
+.card > img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
     transition: .3s ease-in-out;
-    padding: 1.2rem 1.8rem;
-    color: white;
-    font-size: 1.4rem;
-    border-radius: 3rem;
-    margin-top: 2rem;
-    font-weight: bold;
+    object-fit: cover;
 }
 
-.serviceBtn:hover{
-    background-color: rgb(129, 35, 35);
-    cursor: pointer;
+.card > img:hover{
+    border-radius: 4rem;
 }
-
-
-
-
-
-
 
 
 
@@ -118,145 +105,115 @@
 
 @media only screen and (max-width: 1200px){
 	/*Tablets [601px -> 1200px]*/
-    .homeContent{
-        min-width: 100vw;
-        max-width: 100vw;
-        margin: 0rem;
-    }
 
-    .introduzione{
-        min-width: 100vw;
-        max-width: 100vw;
-        justify-content: center;
-        align-items: center;
-    }
+.homeContent{
+    
+    gap: 20rem;
+    margin-top: 5rem;
+    
+}
+.introduzione{
+    margin-top: 5rem;
+    height: fit-content;
+}
 
-    .introduzioneElementi{
-        width: fit-content;
-        font-size: 2rem;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 2rem;
-        
-    }
+.motivazioni{
+   height: fit-content;
+    padding:4rem;
+    text-align: center;
+}
 
-    .motivazione{
-        min-width: 100vw;
-        max-width: 100vw;
-        justify-content: flex-start;
-        align-items: flex-start;
-        
-    }
+.cards{
+    flex-direction: column;
+}
 
-    .motivazioneElementi{
-        width: fit-content;
-        font-size: 2rem;
-        justify-content: flex-start;
-        align-items: flex-start;
-        padding: 2rem;
-        gap: 0;
-        margin: 0;
-        
-    }
 
-    .cards{
-        flex-direction: column;
-        gap: 1rem;
-        margin-top: 2rem;
-        align-items: center;
-        justify-content: center;
-        
-        width: 100%;
-    }
-
-    .cards img{
-        max-width: 20rem;
-        
-    }
-
-    .card{
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-    }
 
 }
+
 
 @media only screen and (max-width: 600px){
-	/*Big smartphones [426px -> 600px]*/
+	/*Tablets [601px -> 1200px]*/
+    .homeContent{
+    
+        gap: 20rem;
+        margin-top: 5rem;
+        
+    }
+    .introduzione{
+        margin-top: 5rem;
+        height: fit-content;
+        font-size: 1.3rem;
+    }
+    
+    .motivazioni{
+       height: fit-content;
+        padding:4rem;
+        text-align: center;
+    font-size: 1.3rem;
+    
+    }
 
    
-
-    .homeContent{
-        min-width: 100vw;
-        max-width: 100vw;
-        margin: 0rem;
-    }
-
-    .introduzione{
-        min-width: 100vw;
-        max-width: 100vw;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .introduzioneElementi{
-        width: fit-content;
-        font-size: 1.2rem;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 2rem;
-        
-    }
-
-    .motivazione{
-        min-width: 100vw;
-        max-width: 100vw;
-        justify-content: flex-start;
-        align-items: flex-start;
-        
-    }
-
-    .motivazioneElementi{
-        width: fit-content;
-        font-size: 1.2rem;
-        justify-content: flex-start;
-        align-items: flex-start;
-        padding: 2rem;
-        gap: 0;
-        margin: 0;
-        
-    }
-
+    
     .cards{
         flex-direction: column;
-        gap: 1rem;
-        margin-top: 2rem;
-        align-items: center;
-        justify-content: center;
         
-        width: 100%;
-    }
-
-    .cards img{
-        
-        max-width: 20rem;
-        
+        width: 90vw;
     }
 
     .card{
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
+        
+        width: 90%;
     }
 
+    .questioning{
+      min-width: 90vw;
+    }
+
+    .serviceBtn{
+        font-size: 1.3rem;
+        width: 18rem;
+    }
+    
+    }
+    
    
-}
+    
+ 
+    
 
 
-@media(max-width: 320px){ 
-.cards img{
-    max-width: 15rem;
-}
-  }
 
+
+@media only screen and (max-width: 400px){
+  
+
+    .homeContent{
+    
+        gap: 20rem;
+        margin-top: 5rem;
+        
+    }
+    .introduzione{
+        margin-top: 5rem;
+        height: fit-content;
+    }
+    
+    .motivazioni{
+       height: fit-content;
+        padding:4rem;
+        text-align: center;
+    }
+    
+    .cards{
+        flex-direction: column;
+    }
+    
+    .serviceBtn{
+       
+       width: fit-content;
+    }
+    
+    
+    }
