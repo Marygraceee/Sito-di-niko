@@ -7,6 +7,8 @@ import React from 'react';
 import './Home.css';
 import { NavLink } from 'react-router-dom';
 import motivo1 from '../../assets/motivo1.jpg';
+import motivo2 from '../../assets/motivo2.webp';
+import motivo3 from '../../assets/motivo3.jpg';
 
 function Home() {
   return (
@@ -47,7 +49,7 @@ function Home() {
 
       <div className="motivazioni">
 
-        <h1>Perché scegliere un copywriter?</h1>
+        <h1>Perché scegliere un creatore di contenuti?</h1>
         <p className="questioning">
           Andresti in giro su un’auto con un motore improvvisato? Ti fideresti a salire su un aereo mai collaudato prima?
           <br />
@@ -55,7 +57,7 @@ function Home() {
           Se non lo faresti per te, perché farlo con il tuo progetto? Affidarsi agli
           {' '}
           <span style={{ fontWeight: 'bold' }}>esperti della comunicazione </span>
-          significa avere meno ansie, meno problemi e qualcuno che sa “smanettare” per far funzionare ogni cosa.
+          significa avere meno ansie, meno problemi e qualcuno che sa “smanettare” per far funzionare ogni cosa, che oggi definiamo generalmente "copywriter".
           <br />
           Di contro, lascia che ti chieda una cosa.
 
@@ -63,7 +65,7 @@ function Home() {
         <h2 className="percheNo">Perché dovresti NON scegliere un copywriter?</h2>
         <div className="cards">
           <div className="card">
-            <img src={motivo1} alt="motivo1" />
+            <img src={motivo1} alt="Non posso spendere soldi" />
             <h3><em>"Non posso spendere soldi"</em></h3>
             <p>
               Non puoi o non
@@ -78,7 +80,7 @@ function Home() {
             </p>
           </div>
           <div className="card">
-            <img src={motivo1} alt="motivo1" />
+            <img src={motivo2} alt="So scrivere i testi da me" />
             <h3><em>"So scrivere i testi da me"</em></h3>
             <p>
               Certo! Il punto è
@@ -90,7 +92,7 @@ function Home() {
             </p>
           </div>
           <div className="card">
-            <img src={motivo1} alt="motivo1" />
+            <img src={motivo3} alt="Non mi fido di nessuno" />
             <h3><em>"Non mi fido di nessuno"</em></h3>
             <p>
               Fai bene! Il mercato è pieno di persone che improvvisano

@@ -16,20 +16,45 @@
     width: 100%;
     font-size: 1.6rem;
     color: white;
+    gap: 3rem;
+    margin-top: 3rem;
 }
 
 .photoSubSection{
-    flex: 1;
-    
+  width: 50%;
+  
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
-.textSubSection{
-    flex: 1;
+.photoSubSection > img {
+    width: 80%;
+    height: 80%;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: .3s ease-in-out;
+}
+
+.photoSubSection > img:hover{
+    border-radius: 25%;
    
-    text-align: center;
+}
+
+.textSubSection{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.719);
+    text-align: left;
+    padding: 3rem;
+    border-radius: 3rem;
+    transition: .5s ease-in-out;
+}
+
+.textSubSection:hover{
+    
+    background-color: rgba(0, 0, 0, 0.911);
+    
+  
 }
 
 .secondSection{
@@ -39,7 +64,7 @@
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    
+    text-shadow: 2px 2px #000000;
     color: white;
     gap: 3rem;
 }
@@ -63,7 +88,7 @@
     transform: scale(1.2);
     font-weight: bolder;
     cursor: pointer;
-    z-index: 555555;
+  
 }
 
 .invito{
@@ -71,8 +96,8 @@
 }
 
 .dueRighe{
-    font-size: 3rem;
-    
+    font-size: 2.5rem;
+    text-align: center;
     padding: 3rem;
 }
 
