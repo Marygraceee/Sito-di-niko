@@ -1,47 +1,49 @@
-.homeContent{
+.homeContent,.introduzione {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: fit-content;
     flex-direction: column;
-    
-    
+    align-items: flex-start
 }
 
-.introduzione{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.homeContent {
+    justify-content: flex-start;
+    height: fit-content
+}
+
+.introduzione {
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: fit-content;
     width: 60%;
     font-size: 1.6rem;
-    color: white;
+    color: #fff;
     gap: 2rem;
     margin-right: 5rem;
     margin-left: 5rem;
+    margin-top: 5rem
 }
 
-.serviceBtn{
-    background-color: rgba(129, 35, 35, 0.836);
-    color: white;
+.card>img,.serviceBtn {
+    transition: .3s ease-in-out
+}
+
+.motivazioni,.serviceBtn {
     font-size: 1.6rem;
+    color: #fff
+}
+
+.serviceBtn {
+    background-color: rgba(129,35,35,.836);
     padding: 1.6rem 1rem;
     border-radius: 3rem;
-    font-weight: bolder;
-    transition: .3s ease-in-out;
+    font-weight: bolder
 }
 
-.serviceBtn:hover{
-    background-color: rgb(129, 35, 35);
-    cursor: pointer;
-    
+.serviceBtn:hover {
+    background-color: #812323;
+    cursor: pointer
 }
 
-
-
-
-.motivazioni{
+.motivazioni {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,172 +51,134 @@
     min-height: 100vh;
     max-height: max-content;
     width: 100%;
-    font-size: 1.6rem;
-    color: white;
     gap: 2rem;
     text-align: center;
-    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(129, 35, 35, 0.836));
-    text-shadow: 2px 2px #000000;
+    background-image: linear-gradient(to bottom,rgba(255,0,0,0),rgba(129,35,35,.836));
+    text-shadow: 2px 2px #000
 }
 
-.motivazioni > p{
-    
-    width: 60%;
+.motivazioni>p {
+    width: 60%
 }
 
-.percheNo{
+.percheNo {
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 3rem
 }
 
-.cards{
+.card,.cards {
     display: flex;
+    align-items: center
+}
+
+.cards {
     justify-content: space-around;
     width: 95%;
-   align-items: center;
-  gap: 3rem;
-   
+    gap: 3rem
 }
 
-.card{
-    display: flex;
+.card {
     flex-direction: column;
-    align-items: center;
     justify-content: flex-start;
     gap: 2rem;
     width: 30rem;
-    height: 40rem;
-
-    
+    height: 40rem
 }
 
-.card > img {
+.card>img {
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
-    transition: .3s ease-in-out;
-    object-fit: cover;
+    object-fit: cover
 }
 
-.card > img:hover{
-    border-radius: 4rem;
+.card>img:hover {
+    border-radius: 4rem
 }
 
-
-
-
-
-@media only screen and (max-width: 1200px){
-	/*Tablets [601px -> 1200px]*/
-
-.homeContent{
-    
-    gap: 20rem;
-    margin-top: 5rem;
-    
-}
-.introduzione{
-    margin-top: 5rem;
-    height: fit-content;
-}
-
-.motivazioni{
-   height: fit-content;
-    padding:4rem;
-    text-align: center;
-}
-
-.cards{
-    flex-direction: column;
-}
-
-
-
-}
-
-
-@media only screen and (max-width: 600px){
-	/*Tablets [601px -> 1200px]*/
-    .homeContent{
-    
+@media only screen and (max-width:1200px) {
+    .homeContent {
         gap: 20rem;
-        margin-top: 5rem;
-        
-    }
-    .introduzione{
-        margin-top: 5rem;
-        height: fit-content;
-        font-size: 1.3rem;
-    }
-    
-    .motivazioni{
-       height: fit-content;
-        padding:4rem;
-        text-align: center;
-    font-size: 1.3rem;
-    
+        margin-top: 5rem
     }
 
-   
-    
-    .cards{
-        flex-direction: column;
-        
-        width: 90vw;
-    }
-
-    .card{
-        
+    .introduzione {
         width: 90%;
+        margin-inline: auto
     }
 
-    .questioning{
-      min-width: 90vw;
-    }
-
-    .serviceBtn{
-        font-size: 1.3rem;
-        width: 18rem;
-    }
-    
-    }
-    
-   
-    
- 
-    
-
-
-
-
-@media only screen and (max-width: 400px){
-  
-
-    .homeContent{
-    
-        gap: 20rem;
-        margin-top: 5rem;
-        
-    }
-    .introduzione{
-        margin-top: 5rem;
+    .motivazioni {
         height: fit-content;
+        padding: 4rem;
+        text-align: center
     }
-    
-    .motivazioni{
-       height: fit-content;
-        padding:4rem;
+
+    .cards {
+        flex-direction: column
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .homeContent {
+        gap: 20rem;
+        margin-top: 5rem
+    }
+
+    .introduzione {
+        margin-top: 5rem;
+        font-size: 1.3rem;
+        width: 90%;
+        margin-inline: auto
+    }
+
+    .motivazioni {
+        height: fit-content;
+        padding: 4rem;
         text-align: center;
+        font-size: 1.3rem
     }
-    
-    .cards{
+
+    .cards {
         flex-direction: column;
+        width: 90vw
     }
-    
-    .serviceBtn{
-       
-       width: fit-content;
+
+    .card {
+        width: 90%
     }
-    
-    
+
+    .questioning {
+        min-width: 90vw
     }
+
+    .serviceBtn {
+        font-size: 1.3rem;
+        width: 18rem
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .homeContent {
+        gap: 20rem;
+        margin-top: 5rem
+    }
+
+    .introduzione {
+        margin-top: 5rem;
+        height: fit-content
+    }
+
+    .motivazioni {
+        height: fit-content;
+        padding: 4rem;
+        text-align: center
+    }
+
+    .cards {
+        flex-direction: column
+    }
+
+    .serviceBtn {
+        width: fit-content
+    }
+}

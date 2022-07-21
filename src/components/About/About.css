@@ -109,12 +109,19 @@
     margin-right: 2rem;
     margin-left: 2rem;
     gap: 3rem;
+    
 }
 .firstSection{
     flex-direction: column;
     gap: 3rem;
     height: max-content;
     margin-top: 10rem;
+    
+}
+
+.textSubSection{
+   
+    width: 90%;
 }
 
 .secondSection{
@@ -140,15 +147,16 @@
 @media only screen and (max-width: 600px){
 	/*Tablets [601px -> 1200px]*/
     .mainContainer{
-        margin-right: 2rem;
-        margin-left: 2rem;
+        margin: 0 auto;
         gap: 3rem;
+        width: 100%;
     }
     .firstSection{
         flex-direction: column;
         gap: 3rem;
         height: max-content;
         margin-top: 10rem;
+        
     }
     
     .secondSection{
@@ -167,6 +175,11 @@
         text-align: center;
     }
     
+    .textSubSection{
+        width: 95%;
+        font-size: 1.2rem;
+        
+    }
 
 }
 
@@ -175,9 +188,9 @@
   
 
     .mainContainer{
-        margin-right: 2rem;
-        margin-left: 2rem;
+        margin: 0 auto;
         gap: 3rem;
+        width: 100%;
     }
     .firstSection{
         flex-direction: column;
@@ -200,6 +213,12 @@
     .dueRighe{
         font-size: 2rem;
         text-align: center;
+    }
+
+    .textSubSection{
+        width: 95%;
+        font-size: 1.2rem;
+        
     }
     
 

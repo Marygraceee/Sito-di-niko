@@ -1,120 +1,114 @@
-.doveTrovarmiContainer{
+.doveTrovarmiContainer {
     min-height: 100vh;
     max-height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
-    
     flex-direction: column;
     margin-right: 5rem;
     margin-left: 5rem;
-    gap: 8rem;
+    gap: 8rem
 }
 
 .iconsSection {
-    color: white;
+    color: #fff;
     display: flex;
     gap: 10rem;
-    font-size: 4rem;
+    font-size: 4rem
 }
 
-.writingSection{
-    color: white;
+.iconsSection>a,.writingSection {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.writingSection {
+    color: #fff;
     font-size: 2.4rem;
     text-align: center;
     width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-shadow: 2px 2px #000
 }
 
-.iconsSection > a{
-    background-color: rgba(129, 35, 35, 0.836);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.iconsSection>a {
+    background-color: rgba(129,35,35,.836);
     width: 13rem;
     height: 13rem;
     border-radius: 50%;
     transition: .3s ease-in-out;
     text-decoration: none;
-    font-size: 7rem;
+    font-size: 7rem
 }
 
-.iconsSection > a:hover{
-    background-color: rgb(129, 35, 35);
+.iconsSection>a:hover {
+    background-color: #812323;
     transform: scale(1.2);
     font-weight: bolder;
-    cursor: pointer;
-    
+    cursor: pointer
 }
 
-.upWork{
-    color: rgb(51, 212, 51);
+.upWork {
+    color: #33d433
 }
 
-.linkedin{
-    color: #0072b1;
+.linkedin {
+    color: #0072b1
 }
 
-.fiverr{
-    color: white;
+.fiverr {
+    color: #fff
 }
 
-
-@media only screen and (max-width: 1200px){
-    /* Tablets */
-    .doveTrovarmiContainer{
+@media only screen and (max-width:1200px) {
+    .doveTrovarmiContainer {
         min-width: 100vw;
         max-width: 100vw;
-        
-        margin: 0;
-        margin-top: 10rem;
-        margin-bottom: 5rem;
+        margin-inline: auto;
+        margin-block: 10rem
     }
-    .iconsSection{
-        flex-direction: column;
+
+    .iconsSection {
+        flex-direction: column
+    }
+
+    .writingSection {
+        width: 90%
     }
 }
 
-@media only screen and (max-width: 600px){
-    /* Tablets */
-    .doveTrovarmiContainer{
+@media only screen and (max-width:600px) {
+    .doveTrovarmiContainer {
         min-width: 100vw;
         max-width: 100vw;
-        
-        margin: 0;
-        margin-top: 10rem;
-        margin-bottom: 5rem;
-    }
-    .iconsSection{
-        flex-direction: column;
+        margin-inline: auto;
+        margin-block: 10rem
     }
 
-    .writingSection{
+    .iconsSection {
+        flex-direction: column
+    }
+
+    .writingSection {
         font-size: 2rem;
-        
-        width: 90%;
+        width: 90%
     }
 }
 
-@media only screen and (max-width: 400px){
-    /* Tablets */
-    .doveTrovarmiContainer{
+@media only screen and (max-width:400px) {
+    .doveTrovarmiContainer {
         min-width: 100vw;
         max-width: 100vw;
-        
-        margin: 0;
-        margin-top: 10rem;
-        margin-bottom: 5rem;
-    }
-    .iconsSection{
-        flex-direction: column;
+        margin-inline: auto;
+        margin-block: 10rem
     }
 
-    .writingSection{
-        font-size: 2rem;
-        
-        width: 90%;
+    .iconsSection {
+        flex-direction: column
+    }
+
+    .writingSection {
+        font-size: 1.5rem;
+        width: 90%
     }
 }

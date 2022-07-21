@@ -11,8 +11,13 @@ function Contatti() {
     <div className="doveTrovarmiContainer">
       <div className="writingSection">
         <p>
-          Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Aspernatur in odit quae distinctio architecto suscipit.
+          Per essere presente in più posti possibili online
+          e rendere più flessibile richiedermi un servizio,
+          sono presente sulle seguenti piattaforme: possiamo
+          lavorare direttamente da lì!
+          <br />
+          <br />
+          Basta mandare un messaggio 😁
 
         </p>
       </div>

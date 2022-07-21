@@ -43,18 +43,20 @@ function Servizi() {
             <h1>Strutturazione brand identity</h1>
             <p>
               Dopo tanti anni nello scrivere di Digital Marketing
-              e l’aver aiutato ormai diverse startup a raggiungere il
-              loro posto nel mercato, mi occupo con successo di strutturare
-              brand identity e creare un tone of voice, dare le indicazioni
-              per una comunicazione efficace, fare ricerche di mercato e stilare
-              i punti essenziali da seguire per l’intero team di creativi.
+              e l’aver aiutato ormai diverse startup a raggiungere
+              il loro posto nel mercato, mi occupo con successo di
+              strutturare brand identity e creare un tone of voice,
+              sviluppare uno storytelling aziendale, dare le indicazioni
+              per una comunicazione efficace, fare ricerche di mercato
+              e stilare i punti essenziali da seguire per l’intero team di creativi.
               <br />
               <br />
-              Ho già gestito gruppi di persone e scegliendomi puoi quindi contare su una
-              persona assolutamente professionale, eccellente in ciò che la riguarda e un
-              approccio privo di quel carattere tossico che contraddistingue i
-              “Professionisti Veri®”. Soddisfatti o rimborsati (in Shibacoin o
-              qualche altra valuta morta).
+              Ho già gestito gruppi di persone e scegliendomi puoi
+              quindi contare su una persona assolutamente professionale,
+              eccellente in ciò che la riguarda e un approccio privo
+              di quel carattere tossico che contraddistingue i
+              “Professionisti Veri®”. Soddisfatti o rimborsati
+              (in Shibacoin o qualche altra valuta morta).
             </p>
 
           </div>
