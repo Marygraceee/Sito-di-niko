@@ -10,6 +10,7 @@ function Form() {
   const casellaNome = useRef();
   const casellaMail = useRef();
   const casellaTesto = useRef();
+  const bottoneInvio = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -21,6 +22,11 @@ function Form() {
     )
       .then((result) => {
         console.log(result.text);
+        casellaNome.current.value = '';
+        casellaMail.current.value = '';
+        casellaTesto.current.value = '';
+        bottoneInvio.current.textContent = 'Messaggio inviato!';
+        bottoneInvio.current.style.backgroundColor = 'Green';
       }, (error) => {
         console.log(error.text);
       });
@@ -55,7 +61,7 @@ function Form() {
           </div>
 
           <div>
-            <button className="sendBtn" type="submit">Invia</button>
+            <button ref={bottoneInvio} className="sendBtn" type="submit">Invia</button>
           </div>
 
           <div className="socialBonus">

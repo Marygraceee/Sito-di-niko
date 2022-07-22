@@ -7,6 +7,10 @@ function Navbar() {
   const [navbar, setNavbar] = useState(false);
   const [menu, setMenu] = useState(false);
 
+  const takeMeToTheTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   const triggerBackground = () => {
     if (window.scrollY > 0) {
       setNavbar(true);
@@ -24,22 +28,22 @@ function Navbar() {
   return (
     <nav style={menu ? { backgroundColor: 'rgba(58, 58, 58, 0.829)' } : { backgroundColor: '' }} className={navbar ? 'navbar-section active' : 'navbar-section'}>
       <nav className="logo-section">
-        <NavLink to="/" style={{ backgroundColor: 'transparent' }}>
+        <NavLink onClick={takeMeToTheTop} to="/" style={{ backgroundColor: 'transparent' }}>
           <h1>Nikole Ceccarelli</h1>
         </NavLink>
       </nav>
 
       <nav className={menu ? 'links-section toggled' : 'links-section'}>
-        <NavLink to="/chi-sono">
+        <NavLink onClick={takeMeToTheTop} to="/chi-sono">
           <h1>Chi sono</h1>
         </NavLink>
-        <NavLink to="/servizi">
+        <NavLink onClick={takeMeToTheTop} to="/servizi">
           <h1>Servizi</h1>
         </NavLink>
-        <NavLink to="/blog">
+        <NavLink onClick={takeMeToTheTop} to="/blog">
           <h1>Blog</h1>
         </NavLink>
-        <NavLink to="/dove-trovarmi">
+        <NavLink onClick={takeMeToTheTop} to="/dove-trovarmi">
           <h1>Dove trovarmi</h1>
         </NavLink>
 
