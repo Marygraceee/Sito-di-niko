@@ -6,7 +6,7 @@
 import React from 'react';
 import './Home.css';
 import { NavLink } from 'react-router-dom';
-import motivo1 from '../../assets/motivo1.jpg';
+import motivo1 from '../../assets/motivo1.jpeg';
 import motivo2 from '../../assets/motivo2.webp';
 import motivo3 from '../../assets/motivo3.jpg';
 

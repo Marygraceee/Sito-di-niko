@@ -1,9 +1,9 @@
 import React from 'react';
 
-import ghostwriting from '../../assets/Servizi/ghostwriting.jpg';
-import Copywriting from '../../assets/Servizi/Copywriting.jpg';
-import editing from '../../assets/Servizi/editing.jpg';
-import brand from '../../assets/Servizi/brand.jpg';
+import ghostwriting from '../../assets/Servizi/ghostwriting.jpeg';
+import Copywriting from '../../assets/Servizi/Copywriting.jpeg';
+import editing from '../../assets/Servizi/editing.jpeg';
+import brand from '../../assets/Servizi/brand.jpeg';
 import socialmedia from '../../assets/Servizi/socialmedia.jpg';
 import './Servizi.css';
 

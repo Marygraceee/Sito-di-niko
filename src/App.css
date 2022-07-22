@@ -18,7 +18,7 @@ html{
 
 body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.363),
-    rgba(0, 0, 0, 0.205)), url(./assets/sfondo5.jpg);
+    rgba(0, 0, 0, 0.205)), url(./assets/sfondo5compresso.jpg);
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
