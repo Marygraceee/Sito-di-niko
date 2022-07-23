@@ -4,8 +4,9 @@
     align-items: flex-start;
     height: fit-content;
     flex-direction: column;
-    margin-right: 5rem;
-    margin-left: 5rem;
+   margin-inline: 5rem;
+   
+    margin-bottom: 10rem;
 }
 
 .firstSection{
@@ -102,7 +103,7 @@
 }
 
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1400px){
 	/*Tablets [601px -> 1200px]*/
 
 .mainContainer{

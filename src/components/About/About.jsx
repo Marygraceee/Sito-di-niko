@@ -4,6 +4,7 @@ import React from 'react';
 import { VscBook } from 'react-icons/vsc';
 import Chisono from '../../assets/Chisono.jpg';
 import './About.css';
+import Carosello from '../Carosello/Carosello';
 
 function About() {
   return (
@@ -53,7 +54,9 @@ function About() {
             Ne ho uno raccolto in questi anni su Drive,
             con più argomenti e stili.
           </p>
+
         </div>
+        <Carosello />
       </div>
 
     </div>
