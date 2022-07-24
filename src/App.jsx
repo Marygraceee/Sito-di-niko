@@ -8,6 +8,7 @@ import Servizi from './components/Servizi/Servizi';
 import './App.css';
 import Form from './components/Form/Form';
 import Blog from './components/Blog/Blog';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       </Routes>
 
       <Form />
+      <Footer />
     </Router>
 
   );

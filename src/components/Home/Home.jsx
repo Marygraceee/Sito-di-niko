@@ -19,15 +19,7 @@ function Home() {
           <cite>“Si legge quello che piace leggere, ma si scrive quello che si è capaci di scrivere.”</cite>
         </h3>
         <h4>(Jorge Luis Borges)</h4>
-        <p>
-          Sono diventata tante cose nel tempo.
-          Se da giovane ero una “pazza promessa della scrittura narrativa” (cit.) è ormai
-          {' '}
-          <span style={{ fontWeight: 'bold' }}>dal 2010</span>
-          {' '}
-          che lavoro come copywriter professionale e ghostwriter di ogni tipo.
 
-        </p>
         <p>
           <span style={{ fontWeight: 'bold' }}>Editing di libri. Proofreader. Copywriter</span>
           {' '}

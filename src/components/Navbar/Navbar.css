@@ -41,9 +41,10 @@ body {
 }
 
 .navbar-section a.active,.navbar-section a:hover {
-    background-color: rgba(0,0,0,.404);
+    background-color: rgba(255, 255, 255, 0.267);
+    
     padding: 1.2rem;
-    border-radius: 3rem
+    border-radius: 3rem;
 }
 
 .logo-section {
@@ -74,6 +75,11 @@ body {
     background-color: transparent;
     transition: .3s ease-in-out;
     color: var(--color-primary)
+}
+
+.logoSito{
+    
+    width: 120%;
 }
 
 @media only screen and (max-width:1200px) {
@@ -153,6 +159,11 @@ body {
         flex-direction: column;
         align-items: center;
         width: 100%
+    }
+
+    .logoSito{
+       
+        width: 80%;
     }
 }
 

@@ -6,7 +6,7 @@
     flex-direction: column;
    margin-inline: 5rem;
    
-    margin-bottom: 10rem;
+    margin-bottom: 9rem;
 }
 
 .firstSection{
@@ -23,7 +23,7 @@
 
 .photoSubSection{
   width: 50%;
-  
+  aspect-ratio: 1/1;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -34,7 +34,7 @@
     height: 80%;
   object-fit: cover;
   border-radius: 50%;
-  transition: .3s ease-in-out;
+  transition: .6s ease-in-out;
 }
 
 .photoSubSection > img:hover{
@@ -67,7 +67,7 @@
     width: 100%;
     text-shadow: 2px 2px #000000;
     color: white;
-    gap: 3rem;
+    
 }
 
 .linkAiProgetti > a {
@@ -94,6 +94,7 @@
 
 .invito{
     font-size: 4rem;
+    padding: 3rem;
 }
 
 .dueRighe{
@@ -103,7 +104,7 @@
 }
 
 
-@media only screen and (max-width: 1400px){
+@media only screen and (max-width: 1500px){
 	/*Tablets [601px -> 1200px]*/
 
 .mainContainer{
@@ -128,7 +129,7 @@
 .secondSection{
    
     height: max-content;
-    margin-bottom: 10rem;
+ 
 }
 
 .invito{
@@ -167,7 +168,7 @@
     }
     
     .invito{
-        font-size: 3rem;
+        font-size: 2.2rem;
         text-align: center;
     }
     

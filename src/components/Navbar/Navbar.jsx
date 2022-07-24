@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 import { FiMenu } from 'react-icons/fi';
+import Firma from '../../assets/navbar/firma.png';
 
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
@@ -29,7 +30,7 @@ function Navbar() {
     <nav style={menu ? { backgroundColor: 'rgba(58, 58, 58, 0.829)' } : { backgroundColor: '' }} className={navbar ? 'navbar-section active' : 'navbar-section'}>
       <nav className="logo-section">
         <NavLink onClick={takeMeToTheTop} to="/" style={{ backgroundColor: 'transparent' }}>
-          <h1>Nikole Ceccarelli</h1>
+          <img className="logoSito" src={Firma} alt="firma" />
         </NavLink>
       </nav>
 

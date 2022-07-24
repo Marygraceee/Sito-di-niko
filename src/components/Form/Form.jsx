@@ -4,6 +4,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Form.css';
+import { FaWhatsapp } from 'react-icons/fa';
 
 function Form() {
   const form = useRef();
@@ -72,12 +73,18 @@ function Form() {
             <div>
               <h1>Telefono</h1>
               <p>Italia</p>
-              <p>+39 3884748205</p>
+              <p>
+                {' '}
+                <FaWhatsapp />
+                {' '}
+                +39 3884748205
+              </p>
             </div>
             <div>
               <h1>Social</h1>
               <a href="https://www.linkedin.com/in/nikolececcarelli/" target="_blank" rel="noreferrer">LinkedIn</a>
             </div>
+
           </div>
 
         </form>
@@ -92,12 +99,17 @@ function Form() {
           <div>
             <h1>Telefono</h1>
             <p>Italia</p>
-            <p>+39 3884748205</p>
+            <p>
+              <FaWhatsapp />
+              {' '}
+              +39 3884748205
+            </p>
           </div>
           <div>
             <h1>Social</h1>
             <a href="https://www.linkedin.com/in/nikolececcarelli/" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
+
         </div>
 
       </div>

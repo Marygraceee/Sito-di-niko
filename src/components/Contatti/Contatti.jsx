@@ -12,7 +12,7 @@ function Contatti() {
       <div className="writingSection">
         <p>
           Per essere presente in più posti possibili online
-          e rendere più flessibile richiedermi un servizio,
+          e rendere più flessibile richiedere un servizio,
           sono presente sulle seguenti piattaforme: possiamo
           lavorare direttamente da lì!
           <br />

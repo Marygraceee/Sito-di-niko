@@ -2,9 +2,10 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
 import { VscBook } from 'react-icons/vsc';
-import Chisono from '../../assets/Chisono.jpg';
+
 import './About.css';
 import Carosello from '../Carosello/Carosello';
+import Portrait from '../../assets/About/portrait.jpg';
 
 function About() {
   return (
@@ -12,7 +13,7 @@ function About() {
 
       <div className="firstSection">
         <div className="photoSubSection">
-          <img src={Chisono} alt="" />
+          <img src={Portrait} alt="" />
         </div>
         <div className="textSubSection">
           <p>
@@ -54,6 +55,8 @@ function About() {
             Ne ho uno raccolto in questi anni su Drive,
             con più argomenti e stili.
           </p>
+          <br />
+          <p>Alcune delle aziende per cui ho lavorato:</p>
 
         </div>
         <Carosello />
